@@ -10,8 +10,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = "src/test/java/features/feature3Runner.feature",
 				 glue="stepDefinitions",
 				 monochrome=true,
-				 strict=true,
-				 dryRun = true)
+				 dryRun = false)
 public class Test3Runner {
 
 }
