@@ -190,7 +190,8 @@ public class StepDefinitions {
 		@Then("^User should see the same product added with name, colour, and quantity in cart page$")
 		public void user_should_see_the_same_product_added_with_name_colour_and_quantity_in_cart_page() throws Throwable {
 		    // Write code here that turns the phrase above into concrete actions
-		    throw new PendingException();
+		   Catalog ctObj = new Catalog(driver);
+			ctObj.product_final_description(driver);
 		}
 
 
